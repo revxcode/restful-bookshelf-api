@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "start-dev": "nodemon ./src/server.js",
     "lint": "npx eslint ./src"
   },
   "keywords": [],
@@ -19,7 +18,8 @@
   "devDependencies": {
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
-    "globals": "^15.11.0",
-    "nodemon": "^3.1.7"
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "eslint-config-google": "^0.14.0",
+    "globals": "^15.11.0"
   }
 }
